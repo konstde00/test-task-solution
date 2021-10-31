@@ -8,7 +8,7 @@ To run this project you have can use Apache Tomcat web server (I used version 9.
 
 ## Functionality
 
-*You can add your links (with protocole name) or files in a src/main/resources/dataSources.csv file in format:
+*You can add your links (with protocole name) or files in a <a href="https://github.com/konstde00/test-tast-solution/blob/main/src/main/resources/dataSources.csv">dataSources</a> file in format:
 
 ```
 
@@ -36,7 +36,7 @@ urlName="https://test-api-heroku.herokuapp.com/testLink/1";
 *Moreover, you can run this project as a web app and use "/giveInput" to send url or data-source path interactively
 
 All products from input data sources will be saved into remote DB (mapped using Hibernate), it's properties are already 
-added into "application.properties" file (you can add your own DB by adding your properties in this file)
+added into <a href="https://github.com/konstde00/test-tast-solution/blob/main/src/main/resources/application.properties">application.properties</a> file (you can add your own DB by adding your properties in this file)
 In order to avoid duplications in DB I have created UniqueFieldDuplicationException, that will be thrown if in input 
 will be two or more objects with different names and same ID.
 After working out all sources, that you have mentioned, you will receive report of all products and their amounts in console.
@@ -52,10 +52,11 @@ or look through it source code on its repository
 
 In this project I used N-tier architecture concept and divide all app into three layers:
 
+```
 *Presentation level
 *Service level
 *Data access (dao) level
-
+```
 
 
 
