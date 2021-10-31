@@ -4,7 +4,8 @@ This is my solution of your test task.
 Using it, you can join two or more JSON data sources (urls, .json or .csv files).
 To solve it I have used Hibernate and Spring frameworks
 (while solving it I used SOLID and TDD principles)
-To run this project you have can use Apache Tomcat web server (I used version 9.0.54) (configure this project as web application) or run it locally by using "main" method in Application class.
+To run this project you can use Apache Tomcat web server (I used version 9.0.54) (configure this project as web application) or run it locally by using "main" method in
+<a href="https://github.com/konstde00/test-task-solution/blob/main/src/main/java/Application.java">Application</a> class.
 
 ## Functionality
 
