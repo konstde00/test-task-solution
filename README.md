@@ -31,7 +31,7 @@ urlName="https://test-api-heroku.herokuapp.com/testLink/1";
 
 ```
 
-*Also ou can input a single data-source path (url or name of the file located in "resources" directory)
+*Also ou can input a single data-source path (url or name of the file located in <a href="https://github.com/konstde00/test-tast-solution/tree/main/src/main/resources">resources</a> directory)
 
 *Moreover, you can run this project as a web app and use "/giveInput" to send url or data-source path interactively
 
@@ -50,14 +50,14 @@ or look through it source code on its repository
 
 ## Structure
 
-In this project I used N-tier architecture concept and divide all app into three layers:
+In this project I used N-tier (multi-tier) architecture concept and divide all app into three layers:
 
 ```
 *Presentation level
 *Service level
 *Data access (dao) level
 ```
-
+Each of them has a specific responsibility, logic of working out an input in different layers is separated.
 
 
 
