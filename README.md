@@ -32,7 +32,7 @@ urlName="https://test-api-heroku.herokuapp.com/testLink/1";
 
 ```
 
-*Also ou can input a single data-source path (url or name of the file located in <a href="https://github.com/konstde00/test-tast-solution/tree/main/src/main/resources">resources</a> directory)
+*Also ou can input a single data-source path (url or name of the file located in <a href="https://github.com/konstde00/test-tast-solution/tree/main/src/main/resources">resources</a> directory) using console
 
 *Moreover, you can run this project as a web app and use "/giveInput" to send url or data-source path interactively
 
